@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:TRAVEL_ID;datatype:int,name:TRAVELING_FROM;datatype:string,name:TRAVELING_TO;datatype:string,name:TRAVEL_DATE;datatype:string,name:RETURN_DATE;datatype:string,name:Date;datatype:timestamp" />
+	<infoitem key="UD_Recordset2" value="name:TRAVEL_ID;datatype:int,name:TRAVELING_FROM;datatype:string,name:TRAVELING_TO;datatype:string,name:TRAVEL_DATE;datatype:string,name:RETURN_DATE;datatype:string,name:Date;datatype:timestamp" />
+	<infoitem key="UD_Recordset3" value="name:TRAVEL_ID;datatype:int,name:TRAVELING_FROM;datatype:string,name:TRAVELING_TO;datatype:string,name:TRAVEL_DATE;datatype:string,name:RETURN_DATE;datatype:string,name:Date;datatype:timestamp" />
+	<infoitem key="UD_Recordset4" value="name:TRAVEL_ID;datatype:int,name:TRAVELING_FROM;datatype:string,name:TRAVELING_TO;datatype:string,name:TRAVEL_DATE;datatype:string,name:RETURN_DATE;datatype:string,name:Date;datatype:timestamp" />
+	<infoitem key="UD_Recordset5" value="name:TRAVEL_ID;datatype:int,name:TRAVELING_FROM;datatype:string,name:TRAVELING_TO;datatype:string,name:TRAVEL_DATE;datatype:string,name:RETURN_DATE;datatype:string,name:Date;datatype:timestamp" />
+</info>

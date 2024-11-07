@@ -1,0 +1,662 @@
+@charset "utf-8";
+/* CSS Document */
+.Container {
+	width:auto;
+	height: 2510px;
+}
+.Shelf {
+	width:auto;
+	height: 100px;
+}
+#Heads {
+	width: auto;
+	position:fixed;
+	transition: all 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.Date_Space {
+	background-color: #000;
+	height: 40px;
+	width: auto;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+.Date_Space p {
+	color: #CCC;
+	font-size: 16px;
+}
+.Logo_Space {
+	background-color: #003;
+	height: 90px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border: thin solid #000;
+}
+.Logo_banner {
+	height: 90px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border: thin solid #000;
+	
+}
+.Site_logo {
+	background-image: url(Mash_Images.html/Mash_Logo.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 50px;
+	width: 207px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.Booking_logo {
+	background-repeat: no-repeat;
+	float: right;
+	height: 54px;
+	width: 178px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+.face_logo {
+	background-repeat: no-repeat;
+	float: right;
+	height: 54px;
+	width: 70px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+.List_Space {
+	background-color: #060;
+	height: 30px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.Leftpart {
+	width: 317px;
+	height: 365px;
+	float: left;
+}
+td:hover {
+	color: black;
+}
+a {
+	color: #CCC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+.Pic_container {
+	height: 470px;
+	width:auto;
+	margin: 0px;
+	padding: 0px;
+}
+.Pics_Space {
+	height: 468px;
+	width: auto;
+	margin:0px;
+	padding: 0px;
+}
+.Pic_part {
+	width: auto;
+	height: 700px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.slide_Image {
+	-webkit-transform-property:opacity;
+	-webkit-transform-duration: 3s;
+	position:absolute;
+	width:1331px;
+	height: 468px;
+}
+
+.slide_Image.fade.out {opacity:0;}
+.slide_Image.fade.in{opacity:1;}
+.Service_container {
+	background-color: #003;
+	height: 550px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+.Services_Section {
+	background-color: #003;
+	height: 300px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+.Parcel_section_Section {
+	float: left;
+	height: 100px;
+	width: 645px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.Services_Section .Parcel_section_Section h1 {
+	color: #CCC;
+}
+.Services_Section h1 {
+	color: #CCC;
+}
+.Services_Section .Parcel_section_Section p {
+	color: #CCC;
+}
+.Parcel_Image {
+	float: left;
+	height: 200px;
+	width: 645px;
+}
+.Passenger_Section {
+	float: right;
+	height: 100px;
+	width: 670px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.Services_Section .Passenger_Section h2 {
+	color: #CCC;
+}
+.Services_Section .Parcel_section_Section h2 {
+	color: #CCC;
+}
+.Passenger_Image {
+	float: right;
+	height: 200px;
+	width: 670px;
+}
+.Services_Section .Passenger_Section p {
+	color: #CCC;
+}
+.About_section {
+	background-color: #030;
+	height: 1015px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
+.About_section h2 {
+	color: #CCC;
+}
+.About_section h1 {
+	color: #CCC;
+}
+.About_section p {
+	color: #CCC;
+}
+.Contacts_Section {
+	background-color: #003;
+	height: 700px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.Contacts_Section h1 {
+	color: #CCC;
+}
+.Tel_email_part {
+	float: left;
+	height: 550px;
+	width: 645px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.Contacts_Section .Tel_email_part h2 {
+	color: #CCC;
+}
+.Contacts_Section .Tel_email_part p {
+	color: #CCC;
+}
+.Contacts_Section .Tel_email_part ul li {
+	color: #CCC;
+}
+
+nav {
+	height: 45px;
+	
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+nav li {
+	display: inline;
+	height: 45px;
+}
+
+nav li a {
+	padding: 30px 36px;
+	margin-right: 0px;
+	}
+.Contact_form_section {
+	float: right;
+	height: 530px;
+	width: 670px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.field {
+	padding: 10px 10px
+}
+
+.Contacts_Section .Contact_form_section h2 {
+	color: #CCC;
+}
+.How_it_works_section {
+	background-color: #030;
+	height: 330px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	font-size: 16px;
+}
+.How_it_works_section h1 {
+	color: #CCC;
+}
+#How_it_works strong p {
+	color: #CCC;
+}
+#How_it_works ul li {
+	color: #CCC;
+}
+.FAQ_Section {
+	background-color: #003;
+	height: 650px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.Copyright_section {
+	background-color: #000;
+	height: 40px;
+	width: auto;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.Copyright_section p {
+	color: #CCC;
+}
+#FAQ h1 {
+	color: #CCC;
+}
+
+.User_section {
+	background-color: #003;
+	height: 405px;
+	width: auto;
+	margin-top: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.Login_Section {
+	height: 300px;
+	width: auto;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	background-color: #333;
+}
+.Reg_Section {
+	height: 350px;
+	width: auto;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	background-color: #333;
+}
+.User_section .Login_Section h2 {
+	color: #CCC;
+}
+.Register_section {
+	float: right;
+	height: 600px;
+	width: 670px;
+	margin-top: 2px;
+}
+.User_section .Register_section h2 {
+	color: #CCC;
+}
+.Travel_options_area {
+	background-color: #003;
+	height: 273px;
+	width: auto;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+
+.Travel_options_container {
+	background-attachment: scroll;
+	background-color: #333;
+	background-repeat: no-repeat;
+	height: 180px;
+	width: auto;
+	z-index: 2;
+	margin-top: 10px;
+}
+.Travel_options_container {
+	background-attachment: scroll;
+	background-color: #333;
+	background-repeat: no-repeat;
+	height: 180px;
+	width: auto;
+	z-index: 2;
+	margin-top: 10px;
+}
+.Login_container {
+	height: 46px;
+	width: 1170px;
+	margin-top: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.Departure {
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 25%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin-top: 10px;
+}
+.Traveling_from {
+	vertical-align: middle;
+	display: inline-block;
+	height: 46px;
+	width: 292.5px;
+	margin-top: 10px;
+}
+.from {
+	margin-top: 10px;
+	padding: 10px 10px;
+	width: 292.5px;
+	height: 30px;
+	
+}
+.button {
+	width: 292.5px;
+	height: 46px;
+	display:block;
+	padding: 10px 16px;
+	color: #F00;
+	margin-top: 10px;
+	margin-left: 50px;
+	
+}
+.sp{
+	margin-left: 20px;
+}
+.Travel_options_area h1 {
+	color: #CCC;
+}
+.Results {
+	width: auto;
+	height: 150px;
+}
+.Day_results_Summary {
+	background-color: #666;
+	height: 70px;
+	width: auto;
+	margin-top: 15px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	border: 1px solid #CCC;
+}
+.Night_results_Summary {
+	background-color: #666;
+	height: 70px;
+	width: auto;
+	margin-top: 15px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	border: 1px solid #CCC;
+}
+#FAQ p strong {
+	color: #CCC;
+}
+#FAQ p {
+	color: #CCC;
+}
+.Reserve_Section {
+	background-color: #003;
+	height: 650px;
+	width: auto;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+.Reserve_Section h1 {
+	color: #CCC;
+}
+.Instruction_section {
+	min-height: 1px;
+	float: left;
+	height: 42px;
+	width: 846px;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+.Reserve_Section .Instruction_section p1 {
+	color: #CCC;
+}
+.Reserve_form {
+	height: 500px;
+	width: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.Reserve_Section .Reserve_form .Form_Fname label {
+	color: #CCC;
+}
+.Fname_Label {
+	height: 20px;
+	width: 87.6px;
+}
+.Lname_Label {
+	height: 20px;
+	width: 86.5px;
+}
+.Reserve_Section .Reserve_form table tr td .Fname_Label {
+	color: #CCC;
+}
+.Reserve_Section .Reserve_form table tr td label {
+	color: #CCC;
+}
+.User_section .Login_Section form table tr td {
+	color: #FFF;
+}
+.User_section .Login_Section form p {
+	color: #FFF;
+}
+.Travel_options_area form table tr td {
+	color: #FFF;
+}
+.User_section .Reg_Section form p {
+	color: #FFF;
+}
+.User_section .Reg_Section h2 {
+	color: #FFF;
+}
+.Logo_Space table tr td {
+	color: #FFF;
+}
+.FAQ_Section h1 {
+	color: #FFF;
+}
+
+.FAQ_Section p strong {
+	color: #FFF;
+}
+.FAQ_Section p {
+	color: #FFF;
+}
+.How_it_works_section ul li {
+	color: #FFF;
+}
+.How_it_works_section strong p {
+	color: #FFF;
+}
+.schedule_section {
+	width:auto;
+	height: 900;
+	background-color:#030;
+}.schedule_section .schedule tr td strong {
+	color: #FFF;
+}
+.schedule_section .schedule tr td {
+	color: #FFF;
+}
+#Contact .Contact_form_section form table tr td {
+	color: #FFF;
+}
+#Contact .Contact_form_section form table tr td {
+	color: #000;
+}
+#Contact .Contact_form_section form table tr td strong {
+	color: #FFF;
+}
+#Contact .Contact_form_section form table tr td {
+	color: #000;
+}
+#Contact .Contact_form_section form table tr td {
+	color: #FFF;
+}
+.success {
+	color: #060;
+	margin-left: 15px;
+}
+.fail {
+	color:#F00;
+	margin-left: 15px;
+}
+.Results_section {
+	width:auto;
+	lengh: 500px;
+	background-color:#030;
+}
+.Results_section table tr td {
+	color: #FFF;
+}
+.Ticket_Infomation {
+	width:1339px;
+	height:880px;
+	background-color: #FF6;
+}.Reserve_Section .Reserve_form form table tr td strong {
+	color: #FFF;
+}
+.Results_section table tr td a {
+	color: #FFF;
+}

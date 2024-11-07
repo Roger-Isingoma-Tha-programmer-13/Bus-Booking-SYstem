@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Ticketreserve" value="name:PASSENGER_ID;datatype:int,name:FIRST_NAME;datatype:string,name:LAST_NAME;datatype:string,name:TELEPHONE_NUMBER;datatype:int,name:EMAIL_ADDRESS;datatype:string,name:PASSPORT_NUMBER;datatype:string,name:NUMBER_OF_TRAVELERS;datatype:int,name:TRAVEL_SCHEDULE;datatype:string,name:AMOUNT;datatype:int,name:SEAT_CLASS;datatype:string,name:DateCreated;datatype:timestamp" />
+	<infoitem key="UD_Ticketbook" value="name:TRAVEL_ID;datatype:int,name:TRAVELING_FROM;datatype:string,name:TRAVELING_TO;datatype:string,name:TRAVEL_DATE;datatype:string,name:RETURN_DATE;datatype:string,name:Date;datatype:timestamp" />
+	<infoitem key="UD_Results" value="name:PASSENGER_ID;datatype:int,name:FIRST_NAME;datatype:string,name:LAST_NAME;datatype:string,name:TELEPHONE_NUMBER;datatype:int,name:EMAIL_ADDRESS;datatype:string,name:PASSPORT_NUMBER;datatype:string,name:NUMBER_OF_TRAVELERS;datatype:int,name:TRAVEL_SCHEDULE;datatype:string,name:AMOUNT;datatype:int,name:SEAT_CLASS;datatype:string,name:DateCreated;datatype:timestamp" />
+	<infoitem key="UD_Recordset2" value="name:TRAVEL_ID;datatype:int,name:TRAVELING_FROM;datatype:string,name:TRAVELING_TO;datatype:string,name:TRAVEL_DATE;datatype:string,name:RETURN_DATE;datatype:string,name:Date;datatype:timestamp" />
+</info>
